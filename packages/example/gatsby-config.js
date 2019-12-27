@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme Carbon',
-    description: 'A Gatsby theme for the carbon design system',
+    title: 'Donut',
+    description: 'Donut Carousell Design System',
     keywords: 'gatsby,theme,carbon',
   },
   pathPrefix: `/gtc`,
@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Carbon Design Gatsby Theme',
-        short_name: 'Gatsby Theme Carbon',
+        name: 'Donut Design System',
+        short_name: 'Donut',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#0062ff',
@@ -23,7 +23,7 @@ module.exports = {
         isSearchEnabled: true,
         repository: {
           baseUrl:
-            'https://github.com/carbon-design-system/gatsby-theme-carbon',
+            'https://github.com/tantrongtt/design-system',
           subDirectory: '/packages/example',
         },
       },
