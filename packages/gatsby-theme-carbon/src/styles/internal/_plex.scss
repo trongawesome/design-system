@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Poppins:400,600&display=swap');
 
 @font-face {
   font-family: 'IBM Plex Sans VF';
@@ -34,11 +34,13 @@
 body {
   font-size: 1em;
   line-height: 1.5;
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 @supports (font-variation-settings: normal) {
   body {
-    font-family: 'IBM Plex Sans VF', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
   }
 }

@@ -18,7 +18,7 @@ module.exports = themeOptions => {
     imageQuality = 75,
     lunrOptions = defaultLunrOptions,
     repository,
-    mediumAccount = 'carbondesign',
+    mediumAccount = 'carousell-insider',
     gatsbyRemarkPlugins = [],
   } = themeOptions;
 

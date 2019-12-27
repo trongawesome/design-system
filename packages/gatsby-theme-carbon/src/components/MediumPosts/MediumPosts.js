@@ -40,7 +40,7 @@ const MediumPosts = ({ postLimit = 3, cardProps, ...rest }) => {
             author={latestPost.author}
             href={latestPost.link}
             date={latestPost.date}
-            color="dark"
+            color="white"
             {...cardProps}
           >
             <img
