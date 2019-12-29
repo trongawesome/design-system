@@ -22,43 +22,49 @@
       path: /guides/navigation/sidebar
 - title: Components
   pages:
-    - title: Accordion
-      path: /components/Accordion
     - title: AnchorLinks
       path: /components/AnchorLinks
     - title: ArtDirection
       path: /components/ArtDirection
+- title: Helps
+  pages:
+    - title: Accordion
+      path: /help/Accordion
+    - title: AnchorLinks
+      path: /help/AnchorLinks
+    - title: ArtDirection
+      path: /help/ArtDirection
     - title: ArticleCard
-      path: /components/ArticleCard
+      path: /help/ArticleCard
     - title: Aside
-      path: /components/Aside
+      path: /help/Aside
     - title: Caption
-      path: /components/Caption
+      path: /help/Caption
     - title: Code blocks
-      path: /components/code-blocks
+      path: /help/code-blocks
     - title: DoDontExample
-      path: /components/DoDontExample
+      path: /help/DoDontExample
     - title: FeatureCard
-      path: /components/FeatureCard
+      path: /help/FeatureCard
     - title: Grid
-      path: /components/Grid
+      path: /help/Grid
     - title: ImageCard
-      path: /components/ImageCard
+      path: /help/ImageCard
     - title: ImageGallery
-      path: /components/ImageGallery
+      path: /help/ImageGallery
     - title: InlineNotification
-      path: /components/InlineNotification
+      path: /help/InlineNotification
     - title: Markdown
-      path: /components/markdown
+      path: /help/markdown
     - title: MediumPosts
-      path: /components/MediumPosts
+      path: /help/MediumPosts
     - title: MDX
-      path: /components/MDX
+      path: /help/MDX
     - title: PageDescription
-      path: /components/PageDescription
+      path: /help/PageDescription
     - title: ResourceCard
-      path: /components/ResourceCard
+      path: /help/ResourceCard
     - title: Tabs
-      path: /components/Tabs
+      path: /help/Tabs
     - title: Video
-      path: /components/Video
+      path: /help/Video
