@@ -27,7 +27,7 @@ Table of content
   <AnchorLink>Naming Conventions</AnchorLink>
   <AnchorLink>Touch targets</AnchorLink>
   <AnchorLink>Keylines</AnchorLink>
-  <AnchorLink>Clarity (Pixel perfection)</AnchorLink>
+  <AnchorLink>Clarity or Pixel perfection</AnchorLink>
 </AnchorLinks>
 
 ## Resource
@@ -77,18 +77,54 @@ Icons in CDS should have rounded corners and edges using a .5px radius for 16px 
 ### Visual Correction
 In certain special cases (for example, when  the icon is too compact, brand logo), adjustments to line width, outlines, or other subtle changes may be made to increase readability.
 
-![Icon overview](./images/icon-corner.jpg)
+<Row>
+<Column colMd={4} colLg={4}>
+
+<DoDontExample type="do" captionTitle="Spark joy" caption="Caption">
+
+![Alt text](./images/visual-correction-do.png)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={4}>
+
+<DoDontExample type="dont" captionTitle="Doesn't spark joy" caption="Caption">
+
+![Alt text](./images/visual-correction-dont.png)
+
+</DoDontExample>
+</Column>
+</Row>
 
 
 ### Perspective
 Always keep a simple, flat style. Icons should not have a sense of depth nor a large amount of detail. Detailed icons increase cognitive load.
 
-![Icon overview](./images/icon-corner.jpg)
+
+<Row>
+<Column colMd={4} colLg={4}>
+
+<DoDontExample type="do" aspectRatio="1:1" captionTitle="Spark joy" caption="Caption">
+
+![Alt text](./images/perspective-do.png)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={4}>
+
+<DoDontExample type="dont" aspectRatio="1:1" captionTitle="Doesn't spark joy" caption="Caption">
+
+![Alt text](./images/perspective-dont.png)
+
+</DoDontExample>
+</Column>
+</Row>
+
 
 ### Naming Conventions
 Uniform naming conventions make finding icons faster and easier.
-* Icon artboard’s name: Category / Icon Name / [icon-size]-icon-name. e.g: Action / Like / 24-like
-* Icon with outline circle should end with -o, icon with filled style should end with -f
+* Icon artboard’s name: `Category / Icon Name / [icon-size]-icon-name. e.g: Action / Like / 24-like`
+* Icon with outline circle should end with `-o`, icon with filled style should end with `-f`
 
 
 ### Touch targets
@@ -103,29 +139,26 @@ Key lines play an important role in making various icons with the same visual ef
 
 Beware of becoming your grid’s slave. It is to help, not to restrict. If an icon is visually better with some sticking out elements, let them stick out.
 
-### Clarity (Pixel perfection)
+### Clarity or Pixel perfection
+
 To avoid distorting an icon, position icons “on pixel” by making the X and Y coordinates into integers, without decimals.
-![Icon overview](./images/icon-pixel-perfection.png)
-
-
-## Do Dont Example
 
 <Row>
 <Column colMd={4} colLg={4}>
 
-#### Image
+<DoDontExample type="do" color="dark" captionTitle="Spark joy" caption="Caption">
 
-<DoDontExample type="do" captionTitle="Caption title" caption="Caption">
-
-![Alt text](./images/desktop.png)
+![Icon overview](./images/icon-pixel-perfection-do.png)
 
 </DoDontExample>
 </Column>
 <Column colMd={4} colLg={4}>
 
-#### Text
+<DoDontExample type="dont"  color="dark" captionTitle="Doesn't spark joy" caption="Caption">
 
-<DoDontExample type="dont" aspectRatio="1:1"  color="dark" captionTitle="Caption title" caption="Caption" text="This is some text" />
+![Icon overview](./images/icon-pixel-perfection-dont.png)
+
+</DoDontExample>
 </Column>
 </Row>
 
