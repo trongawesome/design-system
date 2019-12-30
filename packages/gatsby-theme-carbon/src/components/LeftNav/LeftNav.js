@@ -9,7 +9,7 @@ import LeftNavResourceLinks from './ResourceLinks';
 import { useWindowSize } from '../../util/hooks';
 
 import LeftNavWrapper from './LeftNavWrapper';
-import { sideNavDark } from './LeftNav.module.scss';
+// import { sideNavDark } from './LeftNav.module.scss';
 
 const LeftNav = props => {
   const { leftNavIsOpen, toggleNavState } = useContext(NavContext);
@@ -34,12 +34,12 @@ const LeftNav = props => {
         defaultExpanded
         aria-label="Side navigation"
         className={classnames({
-          [sideNavDark]: props.theme === 'dark' || props.homepage,
+          // [sideNavDark]: props.theme === 'dark' || props.homepage,
           'bx--side-nav--website': true,
-          'bx--side-nav--website--dark':
-            props.theme === 'dark' || props.homepage,
-          'bx--side-nav--website--light':
-            props.theme !== 'dark' && !props.homepage,
+          // 'bx--side-nav--website--dark':
+          //   props.theme === 'dark' || props.homepage,
+          'bx--side-nav--website--light': true,
+            // props.theme !== 'dark' && !props.homepage,
         })}
       >
         <SideNavItems>
