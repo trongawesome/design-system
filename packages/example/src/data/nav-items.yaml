@@ -10,7 +10,13 @@
 - title: Contributions
   pages:
     - path: /contributions
-- title: Foundation
+- title: Components
+  pages:
+    - title: Anchor Links
+      path: /components/AnchorLinks
+    - title: Art Direction
+      path: /components/ArtDirection
+- title: Setup
   pages:
     - title: Configuration
       path: /guides/configuration
@@ -20,12 +26,6 @@
       path: /guides/styling
     - title: Navigation
       path: /guides/navigation/sidebar
-- title: Components
-  pages:
-    - title: AnchorLinks
-      path: /components/AnchorLinks
-    - title: ArtDirection
-      path: /components/ArtDirection
 - title: Helps
   pages:
     - title: Accordion

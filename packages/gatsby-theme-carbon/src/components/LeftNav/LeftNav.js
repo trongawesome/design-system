@@ -9,7 +9,7 @@ import LeftNavResourceLinks from './ResourceLinks';
 import { useWindowSize } from '../../util/hooks';
 
 import LeftNavWrapper from './LeftNavWrapper';
-import { sideNavDark } from './LeftNav.module.scss';
+// import { sideNavDark } from './LeftNav.module.scss';
 
 const LeftNav = props => {
   const { leftNavIsOpen, toggleNavState } = useContext(NavContext);
