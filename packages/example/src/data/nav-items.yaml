@@ -10,6 +10,14 @@
 - title: Contributions
   pages:
     - path: /contributions
+- title: Foundation
+  pages:
+    - title: Colours
+      path: /foundation/Colours
+    - title: Typography
+      path: /foundation/Typography
+    - title: Icons
+      path: /foundation/Icons/overview
 - title: Components
   pages:
     - title: Anchor Links

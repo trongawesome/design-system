@@ -159,16 +159,20 @@
 .h1 {
   margin-top: $spacing-12;
   @include carbon--type-style('expressive-heading-05', true);
+  font-weight: 600;
 }
 
 .h2 {
   margin-top: $spacing-11;
   @include carbon--type-style('expressive-heading-04', true);
+  font-weight: 600;
 }
 
 .h3 {
   margin-top: $spacing-10;
   @include carbon--type-style('expressive-heading-03', true);
+  font-weight: 600;
+
 }
 
 .h4 {

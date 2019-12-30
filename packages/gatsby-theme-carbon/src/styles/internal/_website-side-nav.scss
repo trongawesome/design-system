@@ -72,7 +72,7 @@
 }
 
 .#{$prefix}--side-nav.#{$prefix}--side-nav--website--light {
-  background-color: $ui-02;
+  background-color: $ui-01;
   border-right: none;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .#{$prefix}--side-nav--website--light .#{$prefix}--side-nav__navigation {
-  background-color: $ui-02;
+  background-color: $ui-01;
 }
 
 .#{$prefix}--side-nav--website .#{$prefix}--side-nav__icon > svg {
@@ -206,7 +206,7 @@
 .#{$prefix}--side-nav.#{$prefix}--side-nav--website--light
   .#{$prefix}--side-nav__item
   .#{$prefix}--side-nav__submenu[aria-expanded='true'] {
-  background-color: $ui-02;
+  background-color: $ui-01;
   color: $text-02;
 
   &:hover {
@@ -238,7 +238,7 @@
 .#{$prefix}--side-nav--website--light
   .#{$prefix}--side-nav__menu[role='menu']
   a.#{$prefix}--side-nav__link[aria-current='page'] {
-  background-color: $ui-03;
+  background-color: $ui-02;
 }
 
 .#{$prefix}--side-nav a.#{$prefix}--side-nav__link,
