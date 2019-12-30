@@ -1,55 +1,142 @@
 ---
 title: Icons
 tabs: ['Overview', 'Usage', 'Contribute']
-description: guide for building a page using tab navigation
+description: Icons are visual symbols used to represent ideas, objects, or actions. They communicate messages at a glance, afford interactivity, and draw attention to important information.
 ---
 
 <PageDescription>
 
-Guide for building a page using tab navigation
+Icons are visual symbols used to represent ideas, objects, or actions. They communicate messages at a glance, afford interactivity, and draw attention to important information.
 
 </PageDescription>
 
-## Tabs in YAML
+Table of content
 
-To create a tabbed page, you just need to point the theme to the path of your first tab. This is the structure of the YAML configuration for this page and it’s siblings.
+<AnchorLinks>
+  <AnchorLink>Resource</AnchorLink>
+  <AnchorLink>Principles</AnchorLink>
+  <AnchorLink>Designing with icons</AnchorLink>
+</AnchorLinks>
 
-```yaml
-- title: Guides
-  pages:
-    - title: Configuration
-      path: /guides/configuration
-    - title: Shadowing
-      path: /guides/shadowing
-    - title: Styling
-      path: /guides/styling
-    - title: Navigation
-      path: /guides/navigation/sidebar
-```
+<AnchorLinks small>
+  <AnchorLink>Icon Sizing</AnchorLink>
+  <AnchorLink>Stroke Weight</AnchorLink>
+  <AnchorLink>Corners</AnchorLink>
+  <AnchorLink>Visual Correction</AnchorLink>
+  <AnchorLink>Perspective</AnchorLink>
+  <AnchorLink>Naming Conventions</AnchorLink>
+  <AnchorLink>Touch targets</AnchorLink>
+  <AnchorLink>Keylines</AnchorLink>
+  <AnchorLink>Clarity (Pixel perfection)</AnchorLink>
+</AnchorLinks>
 
-## File structure
+## Resource
 
-Let’s check out the directory structure for this page. Notice how you’ll add another directory that corresponds with the one in the YAML file.
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Production ready"
+      title="Donut icon set"
+      aspectRatio="2:1"
+      href="https://www.figma.com/file/bEX9lgvC7uMtLTXrfwQbUO/Icons?node-id=1%3A7"
+      >
 
-    .
-    ├── pages
-    │   └── guides
-    │       ├── configuration.mdx
-    │       ├── shadowing.mdx
-    │       ├── styling.mdx
-    │       └── navigation
-    │           ├── tabs.mdx
-    │           └── sidebar.mdx
+![IBM Rebus](../images/figma-icon.png)
 
-## Markdown updates
+  </ResourceCard>
+</Column>
+</Row>
 
-The last step is to add the name of your tabs to the front matter of each markdown file that has tabs.
 
-**Known issue**: at the moment, your tab name needs to match your title for the navigation components to function properly.
+## Principles
+* Simple
+* Outline stroke
+* Rounded edges
 
-```markdown
----
-title: Sidebar
-tabs: ['Sidebar', 'Tabs']
----
-```
+## Designing with icons
+### Icon Sizing
+16px, 24px, 32px
+Icons should only be used at their original sizes and not resized in code. We want to maintain the right detail for each icon and prevent half-pixel when resizing which can cause blurry icons.
+
+Very rare cases, we need 20px, we can create an icon on this size to use.
+
+![Icon overview](./images/icon-size.jpg)
+
+
+### Stroke Weight
+Consistent stroke weight is the key to maintaining the visual unity of the entire icon system. CDS icons have a consistent stroke width of 1px for 16px icon, 2px for 24px and 32px icon.
+
+![Icon overview](./images/icon-weight.jpg)
+
+### Corners
+Consistent rounding of corners and sizing help maintain visual unity.
+Icons in CDS should have rounded corners and edges using a .5px radius for 16px icon and 1px for 24 & 32 icon.
+
+![Icon overview](./images/icon-corner.jpg)
+
+### Visual Correction
+In certain special cases (for example, when  the icon is too compact, brand logo), adjustments to line width, outlines, or other subtle changes may be made to increase readability.
+
+![Icon overview](./images/icon-corner.jpg)
+
+
+### Perspective
+Always keep a simple, flat style. Icons should not have a sense of depth nor a large amount of detail. Detailed icons increase cognitive load.
+
+![Icon overview](./images/icon-corner.jpg)
+
+### Naming Conventions
+Uniform naming conventions make finding icons faster and easier.
+* Icon artboard’s name: Category / Icon Name / [icon-size]-icon-name. e.g: Action / Like / 24-like
+* Icon with outline circle should end with -o, icon with filled style should end with -f
+
+
+### Touch targets
+All touch targets for interactive icons need to be 44 px or larger for iOS/Android. Developers can add padding to a touch target to meet the 44px requirement.
+
+![Icon overview](./images/icon-touch-target.png)
+
+### Keylines
+Key lines play an important role in making various icons with the same visual effect.
+
+![Icon overview](./images/icon-keyline.jpg)
+
+Beware of becoming your grid’s slave. It is to help, not to restrict. If an icon is visually better with some sticking out elements, let them stick out.
+
+### Clarity (Pixel perfection)
+To avoid distorting an icon, position icons “on pixel” by making the X and Y coordinates into integers, without decimals.
+![Icon overview](./images/icon-pixel-perfection.png)
+
+
+## Do Dont Example
+
+<Row>
+<Column colMd={4} colLg={4}>
+
+#### Image
+
+<DoDontExample type="do" captionTitle="Caption title" caption="Caption">
+
+![Alt text](./images/desktop.png)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={4}>
+
+#### Text
+
+<DoDontExample type="dont" aspectRatio="1:1"  color="dark" captionTitle="Caption title" caption="Caption" text="This is some text" />
+</Column>
+</Row>
+
+## Props
+
+| property     | propType | required | description                                                                                                                                                                                                                                        |
+| ------------ | -------- | -------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| children     | node     |         | child node, expects a markdown image or `<Video>` component                                                                                                                                                                                        |
+| text         | string   |         | text to display inside the component instead of an image or video                                                                                                                                                                                  |
+| caption      | string   |         | caption                                                                                                                                                                                                                                            |
+| captionTitle | string   |         | caption title                                                                                                                                                                                                                                      |
+| type         | string   | dont    | set to `do` to show green check, otherwise shows pink X                                                                                                                                                                                            |
+| color        | string   | light   | set to `dark` for dark background card                                                                                                                                                                                                             |
+| aspectRatio  | string   |         | set to `1:1` to force square example |
