@@ -20,10 +20,10 @@
       path: /foundation/Icons/overview
 - title: Components
   pages:
-    - title: Anchor Links
+    - title: AnchorLinks
       path: /components/AnchorLinks
-    - title: Art Direction
-      path: /components/ArtDirection
+    - title: Tutorial
+      path: /components/Tutorial
 - title: Setup
   pages:
     - title: Configuration
