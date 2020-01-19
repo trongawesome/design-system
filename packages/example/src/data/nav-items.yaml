@@ -4,12 +4,6 @@
 - title: Demo
   pages:
     - path: /demo
-- title: Gallery
-  pages:
-    - path: /gallery
-- title: Contributions
-  pages:
-    - path: /contributions
 - title: Foundation
   pages:
     - title: Colours
@@ -18,24 +12,136 @@
       path: /foundation/Typography
     - title: Icons
       path: /foundation/Icons/overview
-- title: Components
+- title: Navigation
   pages:
-    - title: AnchorLinks
-      path: /components/AnchorLinks
-    - title: Tutorial
-      path: /components/Tutorial
-- title: Setup
+    - title: Top Nav - Title
+      path: /navigation/TopNavTitle
+    - title: Top Nav - Search
+      path: /navigation/TopNavSearch
+    - title: Bottom Nav
+      path: /navigation/BottomNav
+    - title: Segmented control
+      path: /navigation/SegmentedControl
+    - title: Header dWeb
+      path: /navigation/HeaderDWeb
+    - title: Breadcrumb
+      path: /navigation/Breadcrumb
+- title: Feedback Indicators
   pages:
-    - title: Configuration
-      path: /guides/configuration
-    - title: Shadowing
-      path: /guides/shadowing
-    - title: Styling
-      path: /guides/styling
-    - title: Navigation
-      path: /guides/navigation/sidebar
+    - title: Snack bar
+      path: /feedback-indicators/SnackBar
+    - title: Banners
+      path: /feedback-indicators/Banners
+    - title: Alert message
+      path: /feedback-indicators/AlertMessage
+- title: Buttons
+  pages:
+    - title: Prim Buttons
+      path: /buttons/PrimButtons
+    - title: Sec Buttons
+      path: /buttons/SecButtons
+    - title: Text Buttons
+      path: /buttons/TextButtons
+    - title: Media Buttons
+      path: /buttons/MediaButtons
+    - title: Circular Buttons
+      path: /buttons/CircularButtons
+    - title: Bottom bar - Actions
+      path: /buttons/BottomBarActions
+    - title: Bottom bar - Actions with Info 
+      path: /buttons/BottomBarActionsInfo
+- title: Loading
+  pages:
+    - title: Full page loading
+      path: /loading/FullPageLoading
+    - title: Partial page loading
+      path: /loading/PartialPageLoading
+    - title: Block & load
+      path: /loading/BlockLoad
+    - title: Skeleton
+      path: /loading/Skeleton
+- title: Input
+  pages:
+    - title: Input Text
+      path: /inputs/InputText
+    - title: Input Phone Number
+      path: /inputs/InputPhoneNumber
+    - title: Input Radio
+      path: /inputs/InputRadio
+    - title: Input Checbox
+      path: /inputs/InputChecbox
+    - title: Text Area
+      path: /inputs/TextArea
+    - title: Dropdown
+      path: /inputs/Dropdown
+    - title: Chips
+      path: /inputs/Chips
+    - title: Ratings
+      path: /inputs/Ratings
+    - title: Steppers
+      path: /inputs/Steppers
+    - title: Switches
+      path: /inputs/Switches
+    - title: Sliders
+      path: /inputs/Sliders
+    - title: Message Input
+      path: /inputs/MessageInput
+- title: Badges & Tags
+  pages:
+    - title: Profile Badge
+      path: /badges-tags/ProfileBadge
+    - title: Notification Badge
+      path: /badges-tags/NotificationBadge
+    - title: Service Tag
+      path: /badges-tags/ServiceTag
+- title: Tutorial
+  pages:
+    - title: Coachmarks
+      path: /tutorial/Coachmarks
+    - title: Tooltips
+      path: /tutorial/Tooltips
+- title: Overlays
+  pages:
+    - title: Popover dWeb
+      path: /overlays/Popover
+    - title: Modals
+      path: /overlays/Modals
+    - title: Dialogs
+      path: /overlays/Dialogs
+    - title: Bottom Sheet
+      path: /overlays/BottomSheet
+- title: List controls
+  pages:
+    - title: Single control
+      path: /list-control/SingleControl
+    - title: Multiple control
+      path: /list-control/MultipleControl
+- title: Pagination
+  pages:
+    - title: Horizontal scroll
+      path: /pagination/HorizontalScroll
+    - title: Dot indicator
+      path: /pagination/DotIndicator
+- title: Chat
+  pages:
+    - title: Inbox list
+      path: /chat/InboxList
+    - title: Chat header
+      path: /chat/ChatHeader
+    - title: User messages
+      path: /chat/UserMessages
+    - title: System message
+      path: /chat/SystemMessage
 - title: Helps
   pages:
+    - title: Setup Configuration
+      path: /help/configuration
+    - title: Setup Shadowing
+      path: /help/shadowing
+    - title: Setup Styling
+      path: /help/styling
+    - title: Setup Navigation
+      path: /help/navigation/sidebar
     - title: Accordion
       path: /help/Accordion
     - title: AnchorLinks
