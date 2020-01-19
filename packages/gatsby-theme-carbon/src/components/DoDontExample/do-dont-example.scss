@@ -118,7 +118,7 @@
 
 .#{$prefix}--example__title {
   @include carbon--type-style('body-short-01');
-  font-weight: 600;
+  font-weight: 700;
   margin: 0;
 
   @media (orientation: landscape) {
